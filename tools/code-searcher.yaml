@@ -1,0 +1,16 @@
+name: "code-searcher"
+description: "Searches repository files and file contents using fuzzy matching and regex queries."
+input_schema:
+  type: "object"
+  properties:
+    query:
+      type: "string"
+      description: "Search text or regex pattern."
+    is_regex:
+      type: "boolean"
+      description: "Whether query should be treated as a regular expression."
+    path_filter:
+      type: "string"
+      description: "Optional file path glob filter."
+  required:
+    - "query"

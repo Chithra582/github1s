@@ -1,0 +1,21 @@
+spec_version: "0.1.0"
+name: "github1s"
+version: "1.0.0"
+description: "Browser-based code exploration and repository intelligence agent providing instant VS Code workspaces, code search, and interactive AI assistance."
+author: "GitHub1s Contributors <support@github1s.com>"
+license: "MIT"
+metadata:
+  domain: "Browser-Based Code Intelligence & Remote Repository Exploration"
+  category: "Developer Tools"
+  framework: "GitHub1s (VS Code Web)"
+  language: "TypeScript"
+skills:
+  - "repository-code-exploration"
+  - "git-history-and-diff-analysis"
+  - "in-browser-code-search"
+  - "ai-assisted-code-explanation"
+tools:
+  - "repo-tree-fetcher"
+  - "code-searcher"
+  - "diff-analyzer"
+  - "symbol-explainer"

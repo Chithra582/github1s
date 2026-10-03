@@ -1,0 +1,21 @@
+name: "repo-tree-fetcher"
+description: "Fetches remote Git repository trees and file hierarchies via provider REST APIs."
+input_schema:
+  type: "object"
+  properties:
+    provider:
+      type: "string"
+      enum:
+        - "github"
+        - "gitlab"
+        - "npm"
+      description: "Remote code repository provider."
+    repo_path:
+      type: "string"
+      description: "Owner and repository path (e.g. microsoft/vscode)."
+    ref:
+      type: "string"
+      description: "Branch, tag, or commit hash reference."
+  required:
+    - "provider"
+    - "repo_path"
